@@ -1,6 +1,7 @@
 import React from "react";
+import "./Contact-Style.css";
 
-const Schedule = () => {
+function Schedule() {
   return (
     <div>
       <ul className="contact">
@@ -8,6 +9,6 @@ const Schedule = () => {
       </ul>
     </div>
   );
-};
+}
 
 export default Schedule;

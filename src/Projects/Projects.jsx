@@ -1,11 +1,7 @@
 import React, { useState } from "react";
-import { filterArray } from "./util";
-import Album from "./Album";
-import "./styles.css";
-import "./hotel-card.css";
-// import Card from "./Card/Card";
-
-// export default function Schedule() {
+import { filterArray } from "../Utils/util";
+import Album from "../Card/Card";
+import "./Projects-Style.css";
 
 const Schedule = () => {
   const [type, setType] = useState("todos");

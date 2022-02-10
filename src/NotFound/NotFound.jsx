@@ -1,5 +1,6 @@
 import { useLocation } from "react-router-dom";
 import React from "react";
+import "./NotFound-Style.css";
 
 export default function NotFound() {
   const location = useLocation();

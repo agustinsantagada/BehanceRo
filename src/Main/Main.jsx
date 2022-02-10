@@ -1,10 +1,11 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import About from "./About";
-import Projects from "./Projects";
-import Contact from "./Contact";
-import Home from "./Home";
-// import NotFound from "./NotFound";
+import About from "../About/About";
+import Projects from "../Projects/Projects";
+import Contact from "../Contact/Contact";
+import Home from "../Home/Home";
+import NotFound from "../NotFound/NotFound";
+import "./Main-Style.css";
 
 const Main = () => {
   return (
@@ -14,7 +15,7 @@ const Main = () => {
         <Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
-        {/* <Route path="*">{ <NotFound /> }</Route> */}
+        <Route path="*">{<NotFound />}</Route>
       </Switch>
     </main>
   );
