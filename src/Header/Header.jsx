@@ -68,13 +68,17 @@ function Header() {
             </Link>
           </li>
           <div class="underbar"></div>
-          {/* <div className="lista-ul-social">
+          <div className="lista-ul-social">
             <li>
               <a
                 href="https://www.linkedin.com/rocioabad"
                 className="lista-ul-botton"
               >
-                <img src={Linkedin} alt="linkedin" />
+                <img
+                  src={Linkedin}
+                  alt="linkedin"
+                  className="lista-ul-social-linkedin"
+                />
               </a>
             </li>
             <li>
@@ -82,10 +86,14 @@ function Header() {
                 href="https://www.behance.net/rocioabad"
                 className="lista-ul-botton"
               >
-                <img src={Behance} alt="behance" />
+                <img
+                  src={Behance}
+                  alt="behance"
+                  className="lista-ul-social-behance"
+                />
               </a>
             </li>
-          </div> */}
+          </div>
         </ul>
       </div>
     </header>
